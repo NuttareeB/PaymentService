@@ -1,0 +1,4 @@
+﻿{
+	"GatewayName": "Stripe",
+	"DllName":  "PaymentService.Plugin.Payment.Stripe.dll"
+}

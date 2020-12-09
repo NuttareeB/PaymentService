@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net471</TargetFrameworks>
+    <PackageIconUrl>https://axia.life/favicon.ico</PackageIconUrl>
+    <PackageProjectUrl>https://axialife.visualstudio.com/AxiaDigitalInsurance/_git/ASF.PaymentApp</PackageProjectUrl>
+    <RepositoryUrl>https://axialife.visualstudio.com/AxiaDigitalInsurance/_git/ASF.PaymentApp</RepositoryUrl>
+    <PackageLicenseUrl>http://axia.life/license</PackageLicenseUrl>
+    <Copyright>Copyright 2018(c) Axia Corporation (Thailand), Limited. All rights reserved.</Copyright>
+    <Authors>Axia Corporation (Thailand) Limited</Authors>
+    <Company>Axia Corporation (Thailand) Limited</Company>
+    <PackageTags>service fabric astnetcore mvc microservice</PackageTags>
+    <AssemblyVersion>0.0.2</AssemblyVersion>
+    <FileVersion>0.0.2.0</FileVersion>
+    <PackageVersion>0.0.2.0</PackageVersion>
+    <Version>0.0.2.0</Version>
+    <Product>AxiaDigitalInsurance</Product>
+    <PackageId>ASF.PaymentService.Adapter</PackageId>
+    <PackageReleaseNotes></PackageReleaseNotes>  
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Composition\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="ServiceProxy\" />
+    <Folder Include="ServiceAdapter\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Common.CommunicationFramwork.All" Version="0.0.1-alpha1" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+﻿[
+	{
+		"PaymentMethodType": "Direct",
+		"PaymentMethod": "CreditCard",
+		"Country": "TH",
+		"Currency": "THB",
+		"PaymentGateway": "Stripe"
+	},
+	{
+		"PaymentMethodType": "Direct",
+		"PaymentMethod": "CreditCard",
+		"Country": "US",
+		"Currency": "USD",
+		"PaymentGateway": "Stripe"
+	}
+]
